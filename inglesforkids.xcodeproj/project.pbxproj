@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E74CA0342D1D328000E16151 /* inglesforkidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CA0332D1D328000E16151 /* inglesforkidsApp.swift */; };
+		E74CA0362D1D328000E16151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CA0352D1D328000E16151 /* ContentView.swift */; };
+		E74CA0382D1D328100E16151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74CA0372D1D328100E16151 /* Assets.xcassets */; };
+		E74CA03C2D1D328100E16151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74CA03B2D1D328100E16151 /* Preview Assets.xcassets */; };
+		E74CA0462D1D328100E16151 /* inglesforkidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CA0452D1D328100E16151 /* inglesforkidsTests.swift */; };
+		E74CA0502D1D328100E16151 /* inglesforkidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CA04F2D1D328100E16151 /* inglesforkidsUITests.swift */; };
+		E74CA0522D1D328100E16151 /* inglesforkidsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74CA0512D1D328100E16151 /* inglesforkidsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74CA0422D1D328100E16151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74CA0282D1D328000E16151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74CA02F2D1D328000E16151;
+			remoteInfo = inglesforkids;
+		};
+		E74CA04C2D1D328100E16151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74CA0282D1D328000E16151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74CA02F2D1D328000E16151;
+			remoteInfo = inglesforkids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E74CA0302D1D328000E16151 /* inglesforkids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inglesforkids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74CA0332D1D328000E16151 /* inglesforkidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inglesforkidsApp.swift; sourceTree = "<group>"; };
+		E74CA0352D1D328000E16151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E74CA0372D1D328100E16151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74CA0392D1D328100E16151 /* inglesforkids.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = inglesforkids.entitlements; sourceTree = "<group>"; };
+		E74CA03B2D1D328100E16151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E74CA0412D1D328100E16151 /* inglesforkidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inglesforkidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74CA0452D1D328100E16151 /* inglesforkidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inglesforkidsTests.swift; sourceTree = "<group>"; };
+		E74CA04B2D1D328100E16151 /* inglesforkidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inglesforkidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74CA04F2D1D328100E16151 /* inglesforkidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inglesforkidsUITests.swift; sourceTree = "<group>"; };
+		E74CA0512D1D328100E16151 /* inglesforkidsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inglesforkidsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74CA02D2D1D328000E16151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74CA03E2D1D328100E16151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74CA0482D1D328100E16151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74CA0272D1D328000E16151 = {
+			isa = PBXGroup;
+			children = (
+				E74CA0322D1D328000E16151 /* inglesforkids */,
+				E74CA0442D1D328100E16151 /* inglesforkidsTests */,
+				E74CA04E2D1D328100E16151 /* inglesforkidsUITests */,
+				E74CA0312D1D328000E16151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74CA0312D1D328000E16151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74CA0302D1D328000E16151 /* inglesforkids.app */,
+				E74CA0412D1D328100E16151 /* inglesforkidsTests.xctest */,
+				E74CA04B2D1D328100E16151 /* inglesforkidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74CA0322D1D328000E16151 /* inglesforkids */ = {
+			isa = PBXGroup;
+			children = (
+				E74CA0332D1D328000E16151 /* inglesforkidsApp.swift */,
+				E74CA0352D1D328000E16151 /* ContentView.swift */,
+				E74CA0372D1D328100E16151 /* Assets.xcassets */,
+				E74CA0392D1D328100E16151 /* inglesforkids.entitlements */,
+				E74CA03A2D1D328100E16151 /* Preview Content */,
+			);
+			path = inglesforkids;
+			sourceTree = "<group>";
+		};
+		E74CA03A2D1D328100E16151 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E74CA03B2D1D328100E16151 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E74CA0442D1D328100E16151 /* inglesforkidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74CA0452D1D328100E16151 /* inglesforkidsTests.swift */,
+			);
+			path = inglesforkidsTests;
+			sourceTree = "<group>";
+		};
+		E74CA04E2D1D328100E16151 /* inglesforkidsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74CA04F2D1D328100E16151 /* inglesforkidsUITests.swift */,
+				E74CA0512D1D328100E16151 /* inglesforkidsUITestsLaunchTests.swift */,
+			);
+			path = inglesforkidsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74CA02F2D1D328000E16151 /* inglesforkids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74CA0552D1D328100E16151 /* Build configuration list for PBXNativeTarget "inglesforkids" */;
+			buildPhases = (
+				E74CA02C2D1D328000E16151 /* Sources */,
+				E74CA02D2D1D328000E16151 /* Frameworks */,
+				E74CA02E2D1D328000E16151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inglesforkids;
+			productName = inglesforkids;
+			productReference = E74CA0302D1D328000E16151 /* inglesforkids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74CA0402D1D328100E16151 /* inglesforkidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74CA0582D1D328100E16151 /* Build configuration list for PBXNativeTarget "inglesforkidsTests" */;
+			buildPhases = (
+				E74CA03D2D1D328100E16151 /* Sources */,
+				E74CA03E2D1D328100E16151 /* Frameworks */,
+				E74CA03F2D1D328100E16151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74CA0432D1D328100E16151 /* PBXTargetDependency */,
+			);
+			name = inglesforkidsTests;
+			productName = inglesforkidsTests;
+			productReference = E74CA0412D1D328100E16151 /* inglesforkidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74CA04A2D1D328100E16151 /* inglesforkidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74CA05B2D1D328100E16151 /* Build configuration list for PBXNativeTarget "inglesforkidsUITests" */;
+			buildPhases = (
+				E74CA0472D1D328100E16151 /* Sources */,
+				E74CA0482D1D328100E16151 /* Frameworks */,
+				E74CA0492D1D328100E16151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74CA04D2D1D328100E16151 /* PBXTargetDependency */,
+			);
+			name = inglesforkidsUITests;
+			productName = inglesforkidsUITests;
+			productReference = E74CA04B2D1D328100E16151 /* inglesforkidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74CA0282D1D328000E16151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E74CA02F2D1D328000E16151 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E74CA0402D1D328100E16151 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E74CA02F2D1D328000E16151;
+					};
+					E74CA04A2D1D328100E16151 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E74CA02F2D1D328000E16151;
+					};
+				};
+			};
+			buildConfigurationList = E74CA02B2D1D328000E16151 /* Build configuration list for PBXProject "inglesforkids" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74CA0272D1D328000E16151;
+			productRefGroup = E74CA0312D1D328000E16151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74CA02F2D1D328000E16151 /* inglesforkids */,
+				E74CA0402D1D328100E16151 /* inglesforkidsTests */,
+				E74CA04A2D1D328100E16151 /* inglesforkidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74CA02E2D1D328000E16151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74CA03C2D1D328100E16151 /* Preview Assets.xcassets in Resources */,
+				E74CA0382D1D328100E16151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74CA03F2D1D328100E16151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74CA0492D1D328100E16151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74CA02C2D1D328000E16151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74CA0362D1D328000E16151 /* ContentView.swift in Sources */,
+				E74CA0342D1D328000E16151 /* inglesforkidsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74CA03D2D1D328100E16151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74CA0462D1D328100E16151 /* inglesforkidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74CA0472D1D328100E16151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74CA0502D1D328100E16151 /* inglesforkidsUITests.swift in Sources */,
+				E74CA0522D1D328100E16151 /* inglesforkidsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74CA0432D1D328100E16151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74CA02F2D1D328000E16151 /* inglesforkids */;
+			targetProxy = E74CA0422D1D328100E16151 /* PBXContainerItemProxy */;
+		};
+		E74CA04D2D1D328100E16151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74CA02F2D1D328000E16151 /* inglesforkids */;
+			targetProxy = E74CA04C2D1D328100E16151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E74CA0532D1D328100E16151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E74CA0542D1D328100E16151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E74CA0562D1D328100E16151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = inglesforkids/inglesforkids.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"inglesforkids/Preview Content\"";
+				DEVELOPMENT_TEAM = H45B8Q3475;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felipegenuino.com.inglesforkids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74CA0572D1D328100E16151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = inglesforkids/inglesforkids.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"inglesforkids/Preview Content\"";
+				DEVELOPMENT_TEAM = H45B8Q3475;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felipegenuino.com.inglesforkids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74CA0592D1D328100E16151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45B8Q3475;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felipegenuino.com.inglesforkidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inglesforkids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/inglesforkids";
+			};
+			name = Debug;
+		};
+		E74CA05A2D1D328100E16151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45B8Q3475;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felipegenuino.com.inglesforkidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inglesforkids.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/inglesforkids";
+			};
+			name = Release;
+		};
+		E74CA05C2D1D328100E16151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45B8Q3475;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felipegenuino.com.inglesforkidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inglesforkids;
+			};
+			name = Debug;
+		};
+		E74CA05D2D1D328100E16151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H45B8Q3475;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = felipegenuino.com.inglesforkidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inglesforkids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74CA02B2D1D328000E16151 /* Build configuration list for PBXProject "inglesforkids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74CA0532D1D328100E16151 /* Debug */,
+				E74CA0542D1D328100E16151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74CA0552D1D328100E16151 /* Build configuration list for PBXNativeTarget "inglesforkids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74CA0562D1D328100E16151 /* Debug */,
+				E74CA0572D1D328100E16151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74CA0582D1D328100E16151 /* Build configuration list for PBXNativeTarget "inglesforkidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74CA0592D1D328100E16151 /* Debug */,
+				E74CA05A2D1D328100E16151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74CA05B2D1D328100E16151 /* Build configuration list for PBXNativeTarget "inglesforkidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74CA05C2D1D328100E16151 /* Debug */,
+				E74CA05D2D1D328100E16151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74CA0282D1D328000E16151 /* Project object */;
+}
